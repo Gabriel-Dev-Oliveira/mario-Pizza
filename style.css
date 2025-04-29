@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/fundo.jpg')!important;
+}
+.bg-topo {
+  background-image: url('images/fundoBanner2.jfif');
+
+  background-size: minium;
+  background-position: center;
+}
+
+.nome-pizzaria {
+  font-family: 'Garamond', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.chef-suggestions img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.chef-suggestions {
+  background-color: #f2f2f2;
+  padding: 1%;
+  text-align: center;
+}
+
+.pizza-bloco {
+  border-radius: 30px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.pizza-bloco.vermelho {
+  background-color: #d32f2f;
+}
+
+.pizza-bloco.amarelo {
+  background-color: #fbc02d;
+}
+
+.pizza-bloco img {
+  max-height: 250px;
+  border-radius: 20px;
+}
+
+.chef-suggestions h3 {
+  color: #000;
+}
+
+.chef-suggestions h5 {
+  font-weight: 600;
+  margin-top: 15px;
+  color: #333;
+}
+
+.chef-suggestions p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.footer {
+  background-color: #b0b0b0;
+  color: #000;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-custom {
+  background-color: #b3b3b3;
+}
+
+.footer-logo img {
+  max-height: 200px;
+}
+
+.footer-text p {
+  margin: 0;
+  font-size: 1rem;
+  color: #000;
+}
+
